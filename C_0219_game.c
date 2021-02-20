@@ -22,7 +22,7 @@ void InitBoard(char board[ROW][COL], int row, int col)
 		if (i<row-1)
 		printf("---|---|---\n");
 	}
-} */   //­nÅý´Ñ½L¤j¤p¯à¦³¼u©ÊÅÜ¤Æ¡A¤U­±Àu¤Æ
+} */   //è¦è®“æ£‹ç›¤å¤§å°èƒ½æœ‰å½ˆæ€§è®ŠåŒ–ï¼Œä¸‹é¢å„ªåŒ–
 
 void DisplayBoard(char board[ROW][COL], int row, int col)
 {
@@ -32,12 +32,12 @@ void DisplayBoard(char board[ROW][COL], int row, int col)
 		int j = 0;
 		for ( j = 0; j < col; j++)
 		{
-			printf(" %c ", board[i][j]);  //¦L¼Æ¾Ú
+			printf(" %c ", board[i][j]);  //å°æ•¸æ“š
 			if (j<col-1)
 				printf("|");
 		}
 		printf("\n");
-		//¦L¤À¹j¦æ
+		//å°åˆ†éš”è¡Œ
 		if (i < row - 1)
 		{
 			for ( j = 0; j < col; j++)
