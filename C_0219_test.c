@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include"0219_game.h"
 
-	//  ¤T¤l´Ñ¤p¹CÀ¸
+	//  ä¸‰å­æ£‹å°éŠæˆ²
 
 void menue()
 {
@@ -14,7 +14,7 @@ void game()
 {
 	char ret = 0;
 	// create an array to store board info
-	char board[ROW][COL]; //¥ş³¡ªÅ®æ
+	char board[ROW][COL]; //å…¨éƒ¨ç©ºæ ¼
 	//initialize board
 	InitBoard(board, ROW, COL);
 	//initialize board
@@ -60,7 +60,7 @@ void test()
 	do
 	{
 		menue();
-		printf("Please Choose¡G 1. or 0.\n");
+		printf("Please Chooseï¼š 1. or 0.\n");
 		scanf_s("%d", &input);
 		switch (input)
 		{
